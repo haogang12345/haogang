@@ -1,0 +1,153 @@
+#wrap {
+    position: relative;
+}
+
+#imgWrap .spice h2,
+#imgWrap .spice h3 {
+    text-align: center;
+}
+
+#imgWrap .spice {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imgWrap .spice h2 {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    margin-bottom: 13px;
+}
+
+#imgWrap .spice h3 {
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 56px;
+    margin-bottom: 21px;
+}
+
+#imgWrap .spice button {
+    width: 152px;
+    height: 43px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    position: relative;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+}
+
+.jieshao {
+    text-align: center;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.jieshao .title {
+    padding: 95px 0 0;
+    font-family: 'FuturaLT-Light', 'GucciChinese';
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+.jieshao .line {
+    display: block;
+    width: 80px;
+    margin: 28px auto 32px;
+    height: 1px;
+    background: #999;
+}
+
+.jieshao .sub {
+    max-width: 658px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #666;
+    line-height: 36px;
+    font-style: italic;
+    font-family: 'TimesNewRomanPS-ItalicMT', 'GucciChinese';
+}
+
+.list {
+    position: relative;
+    /* background-color: #e7e7e7; */
+    text-align: center;
+    font-family: 'GucciChinese';
+    z-index: 5;
+}
+
+.list .title {
+    font-size: 32px;
+    letter-spacing: 2.5px;
+    line-height: 42px;
+    font-family: 'GucciChinese';
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 38px;
+    padding-top: 20px;
+}
+
+.shangpinList {
+    padding: 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shangpinList li {
+    /* float: left; */
+    width: 19%;
+    background-color: #e7e7e7;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+
+.shangpinList li img {
+    width: 100%;
+    /* padding: 60px 0 0; */
+}
+
+.shangpinList li h2 {
+    letter-spacing: 1px;
+    margin-bottom: 19px;
+    font-size: 14px;
+    color: #4b4b4b;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-bottom: 13px;
+    height: 44px;
+}
+
+.shangpinList li p {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 1px;
+    line-height: 14px;
+}
+
+.shangpinList li a {
+    /* color: #000; */
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    transition: all .5s;
+}
+
+.shangpinList li:hover {
+    background-color: #f9f9f9;
+}
+
+.shangpinList li:hover a {
+    color: #000;
+}
+
+#template {
+    display: none;
+}

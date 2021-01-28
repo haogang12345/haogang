@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input {
+    outline: none;
+    padding-left: 10px;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}

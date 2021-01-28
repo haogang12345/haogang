@@ -1,0 +1,83 @@
+body,
+html {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#reg {
+    width: 719px;
+    height: 900px;
+    background-color: #FFFFFF;
+    margin: 135px auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#reg h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#reg .p1 {
+    margin-top: 10px;
+    color: #081F2C;
+}
+
+#reg .p4,
+#reg .p2,
+#reg .p5 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #081F2C;
+}
+
+#username,
+#password,
+#repassword,
+#name,
+#reg .p9 {
+    width: 312px;
+    height: 34px;
+    border: 1px solid #D7D7D7;
+    margin-top: 10px;
+}
+
+#reg .p3 {
+    margin-top: 20px;
+}
+
+#reg .p5 {
+    margin-top: -77px;
+    margin-left: 320px;
+}
+
+#reg .p6 {
+    font-size: 13px;
+    color: #969696;
+    margin-top: 25px;
+}
+
+#reg .p7 {
+    margin-top: 25px;
+}
+
+#reg .p8 {
+    width: 312px;
+    margin-top: 20px;
+}
+
+#reg .p8 a {
+    font-size: 14px;
+    color: #505050;
+}
+
+#reg .p9 {
+    margin-top: 20px;
+    background-color: #081F2C;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
